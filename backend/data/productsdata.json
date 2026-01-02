@@ -1,0 +1,74 @@
+[
+    {
+        "name": "OPPO F21s Pro",
+        "price": 29999,
+        "description": "OPPO F21s Pro with 8GB RAM and 256GB Storage",
+        "rating": 4.5,
+        "image": "https://example.com/images/oppo-f21s-pro.jpg",
+        "images": [
+           {
+            "image": "/images/oppo-f21s-pro-1.jpg"
+           },
+           {
+            "image": "/images/oppo-f21s-pro-2.jpg"
+           }
+        ],
+        "category": "Smartphones",
+        "seller": "Amazon",
+        "stock": 150
+    },
+    {
+        "name": "Samsung Galaxy M32",
+        "price": 15999,
+        "description": "Samsung Galaxy M32 with 6GB RAM and 128GB Storage",
+        "rating": 4.3,
+        "image": "https://example.com/images/samsung-galaxy-m32.jpg",
+        "images": [
+           {
+            "image": "/images/samsung-galaxy-m32-1.jpg"
+           },
+           {
+            "image": "/images/samsung-galaxy-m32-2.jpg"
+           }
+        ],
+        "category": "Smartphones",
+        "seller": "Amazon",
+        "stock": 200
+    },
+    {
+        "name": "iPhone 13 Pro",
+        "price": 99999,
+        "description": "Apple iPhone 13 Pro with 6GB RAM and 256GB Storage",
+        "rating": 4.8,
+        "image": "https://example.com/images/iphone-13-pro.jpg",
+        "images": [
+           {
+            "image": "/images/iphone-13-pro-1.jpg"
+           },
+           {
+            "image": "/images/iphone-13-pro-2.jpg"
+           }
+        ],
+        "category": "Smartphones",
+        "seller": "Apple Store",
+        "stock": 100
+    },
+    {
+        "name": "OnePlus Nord CE 2",
+        "price": 24999,
+        "description": "OnePlus Nord CE 2 with 8GB RAM and 128GB Storage",
+        "rating": 4.4,
+        "image": "https://example.com/images/oneplus-nord-ce-2.jpg",
+        "images": [
+           {
+            "image": "/images/oneplus-nord-ce-2-1.jpg"
+           },
+           {
+            "image": "/images/oneplus-nord-ce-2-2.jpg"
+           }
+        ],
+        "category": "Smartphones",
+        "seller": "OnePlus Store",
+        "stock": 120
+    }
+]

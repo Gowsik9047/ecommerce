@@ -6,10 +6,12 @@
 // export router
 
 const express = require('express');
-const { getProducts, getProductsId, getProductsCategory } = require('../controllers/productController');
+const { getProducts, getProductsId, getProductsCategory, getHomeProducts } = require('../controllers/productController');
 const router = express.Router();
 
 router.route('/products').get(getProducts);
+router.route("/products/homepage").get(getHomeProducts);
+
 router.route('/products/:id').get(getProductsId);
 router.route('/products/category/:category').get(getProductsCategory);
 

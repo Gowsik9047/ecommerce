@@ -4,7 +4,10 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase/firebaseConfig";
 
 import Auth from './auth/auth'
-import Dashboard from './component/dashboard'
+import Home from './component/home'
+import Header from './component/header';
+import Footer from './component/footer';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -28,6 +31,18 @@ function App() {
     );
   }
 
-  return user ? <Dashboard /> : <Auth />;
+  return user ?
+    <div className='App'>
+      <Router>
+        <div>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/search" element={<Home />} />
+          </Routes>
+        </div>
+      </Router>
+      <Footer />
+    </div> : <Auth />;
 }
 export default App

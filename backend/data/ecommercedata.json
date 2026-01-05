@@ -1,106 +1,145 @@
 [
-  { "name": "iPhone 15", "price": 80000, "category": "mobile", "image": "https://example.com/iphone15.jpg", "description": "Latest Apple iPhone" },
-  { "name": "iPhone 14", "price": 70000, "category": "mobile", "image": "https://example.com/iphone14.jpg", "description": "Apple iPhone 14" },
-  { "name": "Samsung Galaxy S23", "price": 65000, "category": "mobile", "image": "https://example.com/s23.jpg", "description": "Samsung flagship phone" },
-  { "name": "Samsung Galaxy A54", "price": 35000, "category": "mobile", "image": "https://example.com/a54.jpg", "description": "Mid range Samsung phone" },
-  { "name": "OnePlus 12", "price": 60000, "category": "mobile", "image": "https://example.com/op12.jpg", "description": "Fast and smooth phone" },
-  { "name": "OnePlus Nord CE 3", "price": 28000, "category": "mobile", "image": "https://example.com/nord.jpg", "description": "Nord series phone" },
-  { "name": "Redmi Note 13 Pro", "price": 25000, "category": "mobile", "image": "https://example.com/redmi13.jpg", "description": "Value for money phone" },
-  { "name": "Redmi 12", "price": 12000, "category": "mobile", "image": "https://example.com/redmi12.jpg", "description": "Budget smartphone" },
-  { "name": "Realme 12 Pro", "price": 23000, "category": "mobile", "image": "https://example.com/realme12.jpg", "description": "Camera focused phone" },
-  { "name": "Vivo V29", "price": 32000, "category": "mobile", "image": "https://example.com/vivo.jpg", "description": "Stylish smartphone" },
-  { "name": "Oppo Reno 10", "price": 34000, "category": "mobile", "image": "https://example.com/oppo.jpg", "description": "Premium design phone" },
-  { "name": "iQOO Neo 7", "price": 30000, "category": "mobile", "image": "https://example.com/iqoo.jpg", "description": "Gaming smartphone" },
-  { "name": "Samsung Galaxy M34", "price": 18000, "category": "mobile", "image": "https://example.com/m34.jpg", "description": "Big battery phone" },
-  { "name": "Motorola Edge 40", "price": 27000, "category": "mobile", "image": "https://example.com/edge40.jpg", "description": "Clean Android phone" },
-  { "name": "Nothing Phone 2", "price": 45000, "category": "mobile", "image": "https://example.com/nothing.jpg", "description": "Unique design phone" },
-  { "name": "Lava Agni 2", "price": 20000, "category": "mobile", "image": "https://example.com/lava.jpg", "description": "Made in India phone" },
-  { "name": "Infinix Zero 30", "price": 23000, "category": "mobile", "image": "https://example.com/infinix.jpg", "description": "Affordable flagship" },
-  { "name": "Tecno Phantom X2", "price": 39000, "category": "mobile", "image": "https://example.com/tecno.jpg", "description": "Premium Tecno phone" },
-  { "name": "Asus ROG Phone 7", "price": 72000, "category": "mobile", "image": "https://example.com/rog.jpg", "description": "Gaming beast phone" },
-  { "name": "Sony Xperia 5", "price": 68000, "category": "mobile", "image": "https://example.com/sony.jpg", "description": "Sony flagship phone" },
-  { "name": "Nokia G42", "price": 16000, "category": "mobile", "image": "https://example.com/nokia.jpg", "description": "Durable smartphone" },
-  { "name": "Micromax IN Note 2", "price": 14000, "category": "mobile", "image": "https://example.com/micromax.jpg", "description": "Indian budget phone" },
-  { "name": "Realme Narzo 60", "price": 17000, "category": "mobile", "image": "https://example.com/narzo.jpg", "description": "Student friendly phone" },
-  { "name": "Samsung Galaxy Z Flip", "price": 90000, "category": "mobile", "image": "https://example.com/zflip.jpg", "description": "Foldable smartphone" },
-  { "name": "Google Pixel 8", "price": 75000, "category": "mobile", "image": "https://example.com/pixel8.jpg", "description": "Best camera phone" },
+  {
+    "name": "Men Wallet",
+    "price": 1100,
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+    "description": "Leather wallet"
+  },
+  {
+    "name": "Men Casual Shirt",
+    "price": 1499,
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    "description": "Cotton casual shirt"
+  },
+  {
+    "name": "Women Handbag",
+    "price": 2499,
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
+    "description": "Stylish women handbag"
+  },
+  {
+    "name": "Men Sneakers",
+    "price": 3299,
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1528701800489-20be3c0ea44a",
+    "description": "Comfortable sneakers"
+  },
+  {
+    "name": "Women Sunglasses",
+    "price": 999,
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    "description": "UV protected sunglasses"
+  },
 
-  { "name": "Pedigree Dog Food 3kg", "price": 1200, "category": "petfood", "image": "https://example.com/pedigree.jpg", "description": "Healthy dog food" },
-  { "name": "Drools Adult Dog Food", "price": 1400, "category": "petfood", "image": "https://example.com/drools.jpg", "description": "Nutrition rich food" },
-  { "name": "Royal Canin Puppy", "price": 1800, "category": "petfood", "image": "https://example.com/royal.jpg", "description": "Premium puppy food" },
-  { "name": "Whiskas Cat Food", "price": 650, "category": "petfood", "image": "https://example.com/whiskas.jpg", "description": "Cat dry food" },
-  { "name": "Purepet Chicken & Veg", "price": 1100, "category": "petfood", "image": "https://example.com/purepet.jpg", "description": "Balanced dog food" },
-  { "name": "Meat Up Dog Treats", "price": 350, "category": "petfood", "image": "https://example.com/meatup.jpg", "description": "Tasty dog treats" },
-  { "name": "SmartHeart Cat Food", "price": 950, "category": "petfood", "image": "https://example.com/smartheart.jpg", "description": "Healthy cat food" },
-  { "name": "Himalaya Healthy Pet", "price": 420, "category": "petfood", "image": "https://example.com/himalaya.jpg", "description": "Natural pet food" },
-  { "name": "Farmina N&D Dog Food", "price": 2200, "category": "petfood", "image": "https://example.com/farmina.jpg", "description": "Grain free dog food" },
-  { "name": "Kennel Kitchen Dog Food", "price": 1600, "category": "petfood", "image": "https://example.com/kennel.jpg", "description": "Premium dog meal" },
-  { "name": "Drools Puppy Food", "price": 1300, "category": "petfood", "image": "https://example.com/droolspuppy.jpg", "description": "Puppy nutrition" },
-  { "name": "Pedigree Pro Adult", "price": 2100, "category": "petfood", "image": "https://example.com/pedigreepro.jpg", "description": "High protein dog food" },
-  { "name": "Whiskas Wet Food", "price": 120, "category": "petfood", "image": "https://example.com/whiskaswet.jpg", "description": "Wet cat food" },
-  { "name": "Bellotta Cat Food", "price": 980, "category": "petfood", "image": "https://example.com/bellotta.jpg", "description": "Cat nutrition" },
-  { "name": "JerHigh Dog Treats", "price": 399, "category": "petfood", "image": "https://example.com/jerhigh.jpg", "description": "Chicken treats" },
-  { "name": "Taste of the Wild", "price": 2500, "category": "petfood", "image": "https://example.com/tastewild.jpg", "description": "Premium dog food" },
-  { "name": "Acana Dog Food", "price": 2800, "category": "petfood", "image": "https://example.com/acana.jpg", "description": "High quality dog food" },
-  { "name": "Orijen Puppy Food", "price": 3000, "category": "petfood", "image": "https://example.com/orijen.jpg", "description": "Biologically appropriate food" },
-  { "name": "Sheba Cat Food", "price": 150, "category": "petfood", "image": "https://example.com/sheba.jpg", "description": "Premium wet cat food" },
-  { "name": "Drools Cat Food", "price": 850, "category": "petfood", "image": "https://example.com/droolscat.jpg", "description": "Cat dry food" },
-  { "name": "Canine Creek Puppy", "price": 1600, "category": "petfood", "image": "https://example.com/canine.jpg", "description": "Puppy growth food" },
-  { "name": "Pet Patrol Dog Food", "price": 900, "category": "petfood", "image": "https://example.com/petpatrol.jpg", "description": "Affordable dog food" },
-  { "name": "Me-O Cat Food", "price": 780, "category": "petfood", "image": "https://example.com/meo.jpg", "description": "Tasty cat food" },
-  { "name": "Drools Focus Puppy", "price": 1900, "category": "petfood", "image": "https://example.com/focus.jpg", "description": "High energy puppy food" },
-  { "name": "Royal Canin Persian Cat", "price": 2400, "category": "petfood", "image": "https://example.com/persian.jpg", "description": "Breed specific food" },
+  {
+    "name": "Wireless Headphones",
+    "price": 2999,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1518444028785-8f8d5c9a1f89",
+    "description": "Noise cancelling headphones"
+  },
+  {
+    "name": "Smart Watch",
+    "price": 4999,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+    "description": "Fitness smart watch"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "price": 2199,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693",
+    "description": "Portable speaker"
+  },
+  {
+    "name": "Gaming Mouse",
+    "price": 1599,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1584270354949-c26b0d6a0f2c",
+    "description": "RGB gaming mouse"
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "price": 3899,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "description": "Backlit keyboard"
+  },
 
+  {
+    "name": "Dog Dry Food",
+    "price": 899,
+    "category": "petfood",
+    "image": "https://images.unsplash.com/photo-1583511655826-05700d52f4d9",
+    "description": "Healthy dog food"
+  },
+  {
+    "name": "Cat Food Pack",
+    "price": 799,
+    "category": "petfood",
+    "image": "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a",
+    "description": "Nutritious cat food"
+  },
+  {
+    "name": "Dog Biscuits",
+    "price": 349,
+    "category": "petfood",
+    "image": "https://images.unsplash.com/photo-1601758174664-c6c4c62b21b0",
+    "description": "Crunchy dog treats"
+  },
+  {
+    "name": "Pet Nutrition Mix",
+    "price": 599,
+    "category": "petfood",
+    "image": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb",
+    "description": "Vitamin supplement"
+  },
+  {
+    "name": "Premium Dog Food",
+    "price": 1299,
+    "category": "petfood",
+    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b",
+    "description": "High protein food"
+  },
 
-  { "name": "Mobile Charger 20W", "price": 999, "category": "accessories", "image": "https://example.com/charger.jpg", "description": "Fast charging adapter" },
-  { "name": "Bluetooth Earbuds", "price": 1999, "category": "accessories", "image": "https://example.com/earbuds.jpg", "description": "Wireless earbuds" },
-  { "name": "Power Bank 10000mAh", "price": 1499, "category": "accessories", "image": "https://example.com/powerbank.jpg", "description": "Portable charger" },
-  { "name": "Mobile Back Cover", "price": 299, "category": "accessories", "image": "https://example.com/cover.jpg", "description": "Protective case" },
-  { "name": "Smart Watch", "price": 2999, "category": "accessories", "image": "https://example.com/watch.jpg", "description": "Fitness smartwatch" },
-  { "name": "Wireless Mouse", "price": 799, "category": "accessories", "image": "https://example.com/mouse.jpg", "description": "Smooth wireless mouse" },
-  { "name": "Keyboard", "price": 999, "category": "accessories", "image": "https://example.com/keyboard.jpg", "description": "Mechanical keyboard" },
-  { "name": "Laptop Bag", "price": 1499, "category": "accessories", "image": "https://example.com/bag.jpg", "description": "Water resistant bag" },
-  { "name": "USB Cable", "price": 199, "category": "accessories", "image": "https://example.com/cable.jpg", "description": "Fast data cable" },
-  { "name": "Phone Stand", "price": 249, "category": "accessories", "image": "https://example.com/stand.jpg", "description": "Adjustable stand" },
-  { "name": "Bluetooth Speaker", "price": 2499, "category": "accessories", "image": "https://example.com/speaker.jpg", "description": "Loud clear sound" },
-  { "name": "Car Mobile Holder", "price": 399, "category": "accessories", "image": "https://example.com/carholder.jpg", "description": "Dashboard holder" },
-  { "name": "Memory Card 128GB", "price": 1299, "category": "accessories", "image": "https://example.com/memory.jpg", "description": "High speed storage" },
-  { "name": "OTG Adapter", "price": 199, "category": "accessories", "image": "https://example.com/otg.jpg", "description": "USB OTG adapter" },
-  { "name": "Gaming Headset", "price": 2999, "category": "accessories", "image": "https://example.com/headset.jpg", "description": "Surround sound headset" },
-  { "name": "Tripod Stand", "price": 899, "category": "accessories", "image": "https://example.com/tripod.jpg", "description": "Camera tripod" },
-  { "name": "Ring Light", "price": 1799, "category": "accessories", "image": "https://example.com/ringlight.jpg", "description": "Photography light" },
-  { "name": "Laptop Cooling Pad", "price": 1299, "category": "accessories", "image": "https://example.com/cooling.jpg", "description": "Cooling fan pad" },
-  { "name": "Screen Protector", "price": 149, "category": "accessories", "image": "https://example.com/screen.jpg", "description": "Tempered glass" },
-  { "name": "Selfie Stick", "price": 499, "category": "accessories", "image": "https://example.com/selfie.jpg", "description": "Extendable selfie stick" },
-  { "name": "Wireless Charger", "price": 1999, "category": "accessories", "image": "https://example.com/wireless.jpg", "description": "Qi wireless charger" },
-  { "name": "Laptop Stand", "price": 1599, "category": "accessories", "image": "https://example.com/laptopstand.jpg", "description": "Ergonomic stand" },
-  { "name": "USB Hub", "price": 899, "category": "accessories", "image": "https://example.com/hub.jpg", "description": "Multiport USB hub" },
-  { "name": "External Hard Disk 1TB", "price": 4999, "category": "accessories", "image": "https://example.com/hdd.jpg", "description": "Backup storage" },
-  { "name": "Webcam HD", "price": 2499, "category": "accessories", "image": "https://example.com/webcam.jpg", "description": "HD video calling" },
-
-  { "name": "Men Casual Shirt", "price": 999, "category": "fashion", "image": "https://example.com/shirt.jpg", "description": "Cotton casual shirt" },
-  { "name": "Women Kurti", "price": 1299, "category": "fashion", "image": "https://example.com/kurti.jpg", "description": "Ethnic wear" },
-  { "name": "Men Jeans", "price": 1599, "category": "fashion", "image": "https://example.com/jeans.jpg", "description": "Slim fit jeans" },
-  { "name": "Women Top", "price": 799, "category": "fashion", "image": "https://example.com/top.jpg", "description": "Stylish top" },
-  { "name": "Sports Shoes", "price": 2499, "category": "fashion", "image": "https://example.com/shoes.jpg", "description": "Comfortable running shoes" },
-  { "name": "Men T-Shirt", "price": 599, "category": "fashion", "image": "https://example.com/tshirt.jpg", "description": "Round neck t-shirt" },
-  { "name": "Women Saree", "price": 2999, "category": "fashion", "image": "https://example.com/saree.jpg", "description": "Traditional saree" },
-  { "name": "Men Formal Shoes", "price": 1999, "category": "fashion", "image": "https://example.com/formal.jpg", "description": "Office wear shoes" },
-  { "name": "Women Sandals", "price": 1499, "category": "fashion", "image": "https://example.com/sandals.jpg", "description": "Comfort sandals" },
-  { "name": "Men Hoodie", "price": 1799, "category": "fashion", "image": "https://example.com/hoodie.jpg", "description": "Winter hoodie" },
-  { "name": "Women Leggings", "price": 499, "category": "fashion", "image": "https://example.com/leggings.jpg", "description": "Stretchable leggings" },
-  { "name": "Men Jacket", "price": 2499, "category": "fashion", "image": "https://example.com/jacket.jpg", "description": "Casual jacket" },
-  { "name": "Women Jeans", "price": 1699, "category": "fashion", "image": "https://example.com/wjeans.jpg", "description": "Slim fit jeans" },
-  { "name": "Men Shorts", "price": 699, "category": "fashion", "image": "https://example.com/shorts.jpg", "description": "Casual shorts" },
-  { "name": "Women Dress", "price": 2199, "category": "fashion", "image": "https://example.com/dress.jpg", "description": "Party wear dress" },
-  { "name": "Men Belt", "price": 499, "category": "fashion", "image": "https://example.com/belt.jpg", "description": "Leather belt" },
-  { "name": "Women Handbag", "price": 1999, "category": "fashion", "image": "https://example.com/handbag.jpg", "description": "Stylish handbag" },
-  { "name": "Men Cap", "price": 399, "category": "fashion", "image": "https://example.com/cap.jpg", "description": "Cotton cap" },
-  { "name": "Women Scarf", "price": 599, "category": "fashion", "image": "https://example.com/scarf.jpg", "description": "Fashion scarf" },
-  { "name": "Men Socks Pack", "price": 299, "category": "fashion", "image": "https://example.com/socks.jpg", "description": "Comfort socks" },
-  { "name": "Women Nightwear", "price": 1299, "category": "fashion", "image": "https://example.com/nightwear.jpg", "description": "Soft nightwear" },
-  { "name": "Men Kurta", "price": 1899, "category": "fashion", "image": "https://example.com/kurta.jpg", "description": "Ethnic kurta" },
-  { "name": "Women Footwear", "price": 1799, "category": "fashion", "image": "https://example.com/wfoot.jpg", "description": "Casual footwear" },
-  { "name": "Men Wallet", "price": 999, "category": "fashion", "image": "https://example.com/wallet.jpg", "description": "Leather wallet" },
-  { "name": "Women Sunglasses", "price": 1499, "category": "fashion", "image": "https://example.com/sunglasses.jpg", "description": "UV protected glasses" }
+  {
+    "name": "Leather Belt",
+    "price": 799,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6",
+    "description": "Genuine leather belt"
+  },
+  {
+    "name": "Men Watch",
+    "price": 2599,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+    "description": "Classic analog watch"
+  },
+  {
+    "name": "Women Scarf",
+    "price": 699,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1520975916090-3105956dac38",
+    "description": "Soft cotton scarf"
+  },
+  {
+    "name": "Travel Backpack",
+    "price": 1899,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "description": "Spacious backpack"
+  },
+  {
+    "name": "Phone Case",
+    "price": 499,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1580910051074-7d65f93e71ad",
+    "description": "Shockproof phone case"
+  }
 ]

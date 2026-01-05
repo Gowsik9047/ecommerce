@@ -1,0 +1,702 @@
+[
+    {
+        "name": "iPhone 15",
+        "price": 80000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+        "description": "Latest Apple iPhone"
+    },
+    {
+        "name": "iPhone 14",
+        "price": 70000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+        "description": "Apple iPhone 14"
+    },
+    {
+        "name": "Samsung Galaxy S23",
+        "price": 65000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1510557880182-3c5a4a7c6c8d",
+        "description": "Samsung flagship phone"
+    },
+    {
+        "name": "Samsung Galaxy A54",
+        "price": 35000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1580910051074-7f36f3f2c95f",
+        "description": "Mid range Samsung phone"
+    },
+    {
+        "name": "OnePlus 12",
+        "price": 60000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+        "description": "Fast performance phone"
+    },
+    {
+        "name": "Redmi Note 13 Pro",
+        "price": 25000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd",
+        "description": "Value for money phone"
+    },
+    {
+        "name": "Realme 12 Pro",
+        "price": 23000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1523205771623-e0faa4d2813d",
+        "description": "Camera focused phone"
+    },
+    {
+        "name": "Vivo V29",
+        "price": 32000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1616348436168-de43ad0db179",
+        "description": "Stylish smartphone"
+    },
+    {
+        "name": "Oppo Reno 10",
+        "price": 34000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1616410011236-7a42121dd981",
+        "description": "Premium design phone"
+    },
+    {
+        "name": "iQOO Neo 7",
+        "price": 30000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1549921296-3fd62c41a6c6",
+        "description": "Gaming phone"
+    },
+    {
+        "name": "Motorola Edge 40",
+        "price": 27000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1603899123005-ec39b0c86f64",
+        "description": "Clean Android UI"
+    },
+    {
+        "name": "Nothing Phone 2",
+        "price": 45000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1621330396173-e41b1cafd17f",
+        "description": "Unique transparent design"
+    },
+    {
+        "name": "Asus ROG Phone 7",
+        "price": 72000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1596558450255-7c0b7be9d56a",
+        "description": "Gaming beast"
+    },
+    {
+        "name": "Google Pixel 8",
+        "price": 75000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+        "description": "Best camera phone"
+    },
+    {
+        "name": "Samsung Galaxy Z Flip",
+        "price": 90000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+        "description": "Foldable phone"
+    },
+    {
+        "name": "Nokia G42",
+        "price": 16000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb",
+        "description": "Durable phone"
+    },
+    {
+        "name": "Lava Agni 2",
+        "price": 20000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1592928302636-53c3f4d6e7a4",
+        "description": "Made in India"
+    },
+    {
+        "name": "Infinix Zero 30",
+        "price": 23000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1583573636246-18cb2246697f",
+        "description": "Affordable flagship"
+    },
+    {
+        "name": "Tecno Phantom X2",
+        "price": 39000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb",
+        "description": "Premium Tecno phone"
+    },
+    {
+        "name": "Sony Xperia 5",
+        "price": 68000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1526045612212-70caf35c14df",
+        "description": "Sony flagship"
+    },
+    {
+        "name": "Realme Narzo 60",
+        "price": 17000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f",
+        "description": "Student phone"
+    },
+    {
+        "name": "Samsung Galaxy M34",
+        "price": 18000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1598327106026-d9521da673d1",
+        "description": "Big battery phone"
+    },
+    {
+        "name": "Micromax IN Note 2",
+        "price": 14000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1580910051074-7f36f3f2c95f",
+        "description": "Budget Indian phone"
+    },
+    {
+        "name": "Redmi 12",
+        "price": 12000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f",
+        "description": "Budget smartphone"
+    },
+    {
+        "name": "OnePlus Nord CE 3",
+        "price": 28000,
+        "category": "mobile",
+        "image": "https://images.unsplash.com/photo-1609692814857-d668e4f5a7c0",
+        "description": "Nord series phone"
+    },
+    {
+        "name": "Pedigree Adult Dog Food",
+        "price": 1200,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1601758177266-bc599de87707",
+        "description": "Healthy dog food"
+    },
+    {
+        "name": "Drools Chicken Dog Food",
+        "price": 1100,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1583511655826-05700d52f4d9",
+        "description": "Protein rich food"
+    },
+    {
+        "name": "Royal Canin Puppy",
+        "price": 1800,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1558944351-c7a6a5e5e2f4",
+        "description": "Puppy nutrition"
+    },
+    {
+        "name": "Whiskas Adult Cat Food",
+        "price": 900,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc0b",
+        "description": "Cat food"
+    },
+    {
+        "name": "Purepet Chicken Biscuit",
+        "price": 350,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1601758064226-0c3c3c3c3c3c",
+        "description": "Dog treats"
+    },
+    {
+        "name": "Me-O Kitten Food",
+        "price": 850,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e",
+        "description": "Kitten nutrition"
+    },
+    {
+        "name": "Drools Cat Food",
+        "price": 950,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        "description": "Healthy cat food"
+    },
+    {
+        "name": "Pedigree Puppy Food",
+        "price": 1400,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb",
+        "description": "Puppy growth food"
+    },
+    {
+        "name": "Royal Canin Persian Cat",
+        "price": 2000,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131",
+        "description": "Persian cat food"
+    },
+    {
+        "name": "Himalaya Healthy Pet",
+        "price": 600,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6",
+        "description": "Ayurvedic pet food"
+    },
+    {
+        "name": "Drools Adult Dog",
+        "price": 1300,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1552053831-71594a27632d",
+        "description": "Adult dog nutrition"
+    },
+    {
+        "name": "Supercoat Dog Food",
+        "price": 1600,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2",
+        "description": "Complete dog food"
+    },
+    {
+        "name": "Me-O Adult Cat",
+        "price": 900,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006",
+        "description": "Adult cat food"
+    },
+    {
+        "name": "Purepet Cat Food",
+        "price": 700,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1601758003122-58e6f5a1e0c0",
+        "description": "Budget cat food"
+    },
+    {
+        "name": "Drools Focus Puppy",
+        "price": 1500,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
+        "description": "Puppy focus food"
+    },
+    {
+        "name": "Royal Canin Maxi",
+        "price": 2100,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc0b",
+        "description": "Large breed dog food"
+    },
+    {
+        "name": "Pedigree Meat Jerky",
+        "price": 450,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e",
+        "description": "Dog treats"
+    },
+    {
+        "name": "Gnawlers Calcium Bone",
+        "price": 500,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b",
+        "description": "Calcium bone"
+    },
+    {
+        "name": "Dogaholic Treats",
+        "price": 400,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1601758064226-bc599de87707",
+        "description": "Chew treats"
+    },
+    {
+        "name": "SmartHeart Puppy",
+        "price": 1700,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1583511655826-05700d52f4d9",
+        "description": "Premium puppy food"
+    },
+    {
+        "name": "Bellotta Cat Food",
+        "price": 950,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        "description": "Tuna cat food"
+    },
+    {
+        "name": "Sheba Cat Food",
+        "price": 1200,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131",
+        "description": "Premium cat food"
+    },
+    {
+        "name": "JerHigh Dog Treats",
+        "price": 550,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2",
+        "description": "Chicken treats"
+    },
+    {
+        "name": "Canine Creek Adult",
+        "price": 1800,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1552053831-71594a27632d",
+        "description": "Grain free food"
+    },
+    {
+        "name": "Farmina N&D",
+        "price": 2600,
+        "category": "petfood",
+        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b",
+        "description": "Premium imported food"
+    },
+    {
+        "name": "Wireless Headphones",
+        "price": 2500,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1519677100203-a0e668c92439",
+        "description": "Bluetooth headphones"
+    },
+    {
+        "name": "Smart Watch",
+        "price": 3000,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+        "description": "Fitness smartwatch"
+    },
+    {
+        "name": "Power Bank 20000mAh",
+        "price": 1800,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1609592088766-0b6f98d1c2cc",
+        "description": "Fast charging power bank"
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "price": 2200,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1585386959984-a4155228f66f",
+        "description": "Portable speaker"
+    },
+    {
+        "name": "USB-C Cable",
+        "price": 299,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd",
+        "description": "Fast charging cable"
+    },
+    {
+        "name": "Laptop Bag",
+        "price": 1200,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1593032465171-fb5f2f89b7e2",
+        "description": "Waterproof bag"
+    },
+    {
+        "name": "Gaming Mouse",
+        "price": 1500,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1527814050087-3793815479db",
+        "description": "RGB gaming mouse"
+    },
+    {
+        "name": "Mechanical Keyboard",
+        "price": 3500,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+        "description": "Mechanical keyboard"
+    },
+    {
+        "name": "Phone Stand",
+        "price": 399,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1580910051074-7f36f3f2c95f",
+        "description": "Adjustable stand"
+    },
+    {
+        "name": "Wireless Charger",
+        "price": 1800,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1587740896339-96b89f8b7c4b",
+        "description": "Fast wireless charger"
+    },
+    {
+        "name": "Car Mobile Holder",
+        "price": 499,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1600369672770-985fd30004eb",
+        "description": "Car phone holder"
+    },
+    {
+        "name": "Earbuds",
+        "price": 2200,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df",
+        "description": "True wireless earbuds"
+    },
+    {
+        "name": "Webcam HD",
+        "price": 2600,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+        "description": "HD webcam"
+    },
+    {
+        "name": "Tripod Stand",
+        "price": 1400,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1519183071298-a2962be96c7a",
+        "description": "Camera tripod"
+    },
+    {
+        "name": "Memory Card 128GB",
+        "price": 1200,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1593642634367-d91a135587b5",
+        "description": "High speed memory card"
+    },
+    {
+        "name": "Laptop Cooling Pad",
+        "price": 1700,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1611078489935-0cb964de46d6",
+        "description": "Cooling pad"
+    },
+    {
+        "name": "VR Headset",
+        "price": 4500,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620",
+        "description": "Virtual reality headset"
+    },
+    {
+        "name": "Action Camera",
+        "price": 6500,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1519183071298-a2962be96c7a",
+        "description": "4K action camera"
+    },
+    {
+        "name": "Phone Cover",
+        "price": 399,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1585386959984-a4155228f66f",
+        "description": "Shockproof case"
+    },
+    {
+        "name": "Screen Protector",
+        "price": 199,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd",
+        "description": "Tempered glass"
+    },
+    {
+        "name": "USB Hub",
+        "price": 999,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+        "description": "Multiport USB hub"
+    },
+    {
+        "name": "Desk Lamp",
+        "price": 1300,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
+        "description": "LED desk lamp"
+    },
+    {
+        "name": "Headphone Stand",
+        "price": 899,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df",
+        "description": "Headphone holder"
+    },
+    {
+        "name": "Microphone",
+        "price": 3200,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1590608897129-79da98d15969",
+        "description": "Podcast microphone"
+    },
+    {
+        "name": "Extension Board",
+        "price": 799,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+        "description": "Power extension board"
+    },
+    {
+        "name": "Men Casual Shirt",
+        "price": 1200,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1521334884684-d80222895322",
+        "description": "Cotton casual shirt"
+    },
+    {
+        "name": "Men Formal Shirt",
+        "price": 1500,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1520975916090-3105956dac38",
+        "description": "Office wear shirt"
+    },
+    {
+        "name": "Men Jeans",
+        "price": 1800,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+        "description": "Slim fit jeans"
+    },
+    {
+        "name": "Men T-Shirt",
+        "price": 799,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
+        "description": "Printed T-shirt"
+    },
+    {
+        "name": "Men Jacket",
+        "price": 2500,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+        "description": "Winter jacket"
+    },
+    {
+        "name": "Women Kurti",
+        "price": 1400,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1",
+        "description": "Ethnic wear kurti"
+    },
+    {
+        "name": "Women Saree",
+        "price": 3200,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6",
+        "description": "Silk saree"
+    },
+    {
+        "name": "Women Jeans",
+        "price": 1900,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+        "description": "High waist jeans"
+    },
+    {
+        "name": "Women Top",
+        "price": 999,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+        "description": "Stylish top"
+    },
+    {
+        "name": "Women Jacket",
+        "price": 2700,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446",
+        "description": "Winter jacket"
+    },
+    {
+        "name": "Kids T-Shirt",
+        "price": 599,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
+        "description": "Kids cotton T-shirt"
+    },
+    {
+        "name": "Kids Jeans",
+        "price": 899,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1542060748-10c28b62716f",
+        "description": "Kids denim jeans"
+    },
+    {
+        "name": "Kids Dress",
+        "price": 1200,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1503944168849-7d0f2a9a5d16",
+        "description": "Party wear dress"
+    },
+    {
+        "name": "Kids Jacket",
+        "price": 1600,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c",
+        "description": "Winter jacket"
+    },
+    {
+        "name": "Kids Shorts",
+        "price": 499,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea",
+        "description": "Casual shorts"
+    },
+    {
+        "name": "Men Sneakers",
+        "price": 2800,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1528701800489-20be3c9c1b6f",
+        "description": "Casual sneakers"
+    },
+    {
+        "name": "Women Heels",
+        "price": 2400,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
+        "description": "Party heels"
+    },
+    {
+        "name": "Men Sandals",
+        "price": 1200,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de",
+        "description": "Comfort sandals"
+    },
+    {
+        "name": "Women Flats",
+        "price": 1600,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1519415943484-9fa1873496d4",
+        "description": "Daily wear flats"
+    },
+    {
+        "name": "Kids Shoes",
+        "price": 1300,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+        "description": "Kids footwear"
+    },
+    {
+        "name": "Men Watch",
+        "price": 3500,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3",
+        "description": "Analog watch"
+    },
+    {
+        "name": "Women Handbag",
+        "price": 4200,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+        "description": "Leather handbag"
+    },
+    {
+        "name": "Men Wallet",
+        "price": 1100,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+        "description": "Leather wallet"
+    },
+    {
+        "name": "Women Sunglasses",
+        "price": 1800,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+        "description": "UV protected glasses"
+    },
+    {
+        "name": "Men Belt",
+        "price": 899,
+        "category": "fashion",
+        "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633",
+        "description": "Formal belt"
+    }
+]

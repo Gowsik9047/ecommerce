@@ -9,8 +9,15 @@ const productModel = require('../models/productsModel');
 
 //  GET ALL PRODUCTS
 exports.getProducts = async (req, res) => {
+
     try {
-        const products = await productModel.find({});
+        const query = req.query.keyword ? {
+            name: {
+                $regex: req.query.keyword,
+                $options: "i"
+            }
+        } : {}
+        const products = await productModel.find(query);
 
         res.status(200).json({
             success: true,
@@ -79,7 +86,37 @@ exports.getProductsCategory = async (req, res) => {
     }
 };
 
+// GET HOME PAGE PRODUCTS (dynamic category wise 5)
+exports.getHomeProducts = async (req, res) => {
+    try {
+        // 1. get distinct categories from DB
+        const categories = await productModel.distinct("category");
 
+        let homeProducts = [];
+
+        // 2. loop each category and get 5 products
+        for (let category of categories) {
+            const products = await productModel
+                .find({ category: category })
+                .limit(5);
+
+            homeProducts.push({
+                category,
+                products
+            });
+        }
+
+        res.status(200).json({
+            success: true,
+            data: homeProducts
+        });
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            message: error.message
+        });
+    }
+};
 // this is normal way to handle errors without try catch
 // catch means show any error are success show console log
 

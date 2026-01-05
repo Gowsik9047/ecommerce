@@ -1,81 +1,159 @@
-const links = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
-]
-const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
+'use client'
+
+import { useState } from 'react'
+import { signOut } from "firebase/auth";
+import { auth } from "../firebase/firebaseConfig";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import UserCircleIcon from '@heroicons/react/24/solid/UserCircleIcon'
+import {
+  Bars3Icon,
+  XMarkIcon,
+  MagnifyingGlassIcon
+} from "@heroicons/react/24/outline"
+import { useState } from "react"
+import { useNavigate } from "react-router-dom";
+
+
+const navigation = [
+  { name: 'Product', href: '#' },
+  { name: 'Features', href: '#' },
+  { name: 'Marketplace', href: '#' },
+  { name: 'Company', href: '#' },
 ]
 
-export default function Header() {
+export default function NavBar() {
+  const handleLogout = async () => {
+    try {
+      console.log("Logging out...");
+      await signOut(auth);
+      alert("User signed out");
+    } catch (error) {
+      console.error(error.message);
+    }
+  };
+
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
+
+  const [keyword, setKeyword] = useState('');
+  const navigate = useNavigate();
+  const searchHandler = () => {
+    navigate('/search?keyword=' + keyword)
+  }
+
   return (
-    <div className="relative isolate overflow-hidden bg-white py-24 sm:py-32 dark:bg-gray-900">
-      <img
-        alt=""
-        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=screen"
-        className="absolute inset-0 -z-10 size-full object-cover object-right opacity-10 md:object-center dark:hidden"
-      />
-      <img
-        alt=""
-        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-        className="absolute inset-0 -z-10 size-full object-cover object-right not-dark:hidden md:object-center"
-      />
-      <div
-        aria-hidden="true"
-        className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
-      >
-        <div
-          style={{
-            clipPath:
-              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-          }}
-          className="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-15 dark:opacity-20"
-        />
-      </div>
-      <div
-        aria-hidden="true"
-        className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:-top-112 sm:ml-16 sm:translate-x-0"
-      >
-        <div
-          style={{
-            clipPath:
-              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-          }}
-          className="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-15 dark:opacity-20"
-        />
-      </div>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl dark:text-white">
-            Work with us
-          </h2>
-          <p className="mt-8 text-lg font-medium text-pretty text-gray-700 sm:text-xl/8 dark:text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat.
-          </p>
-        </div>
-        <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-gray-900 sm:grid-cols-2 md:flex lg:gap-x-10 dark:text-white">
-            {links.map((link) => (
-              <a key={link.name} href={link.href}>
-                {link.name} <span aria-hidden="true">&rarr;</span>
-              </a>
-            ))}
+    <div className={dark ? "dark" : ""}>
+      <header className="fixed top-0 w-full z-50 bg-white dark:bg-gray-900 shadow">
+        <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+          <Link to={"/"}>
+            {/* Logo */}
+            <div className="text-xl font-bold text-gray-800 dark:text-white">
+              MyShop
+            </div>
+          </Link>
+          {/* Desktop Menu */}
+          <ul className="hidden md:flex gap-6 text-gray-700 dark:text-gray-200">
+            <li className="hover:text-blue-600 cursor-pointer">Home</li>
+            <li className="hover:text-blue-600 cursor-pointer">Shop</li>
+            <li className="hover:text-blue-600 cursor-pointer">Categories</li>
+            <li className="hover:text-blue-600 cursor-pointer">Contact</li>
+          </ul>
+
+          <div className="hidden md:flex items-center border rounded-lg px-2 dark:border-gray-700">
+            <MagnifyingGlassIcon className="h-5 w-5 text-gray-500" />
+            <input
+              type="text"
+              placeholder="Enter Product Name..."
+              onChange={(e) => setKeyword(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  searchHandler()
+                }
+              }}
+              className="px-2 py-1 text-sm bg-transparent outline-none dark:text-white"
+            />
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-            {stats.map((stat) => (
-              <div key={stat.name} className="flex flex-col-reverse gap-1">
-                <dt className="text-base/7 text-gray-700 dark:text-gray-300">{stat.name}</dt>
-                <dd className="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white">{stat.value}</dd>
+
+          {/* Right Icons */}
+          <div className="flex items-center gap-4">
+
+            {/* User Dropdown */}
+            <button
+              onClick={() => setUserMenuOpen(!userMenuOpen)}
+              onMouseEnter={() => setUserMenuOpen(true)}
+              className="relative"
+            >
+              <UserCircleIcon className="h-7 w-7 text-gray-700" />
+            </button>
+
+            {userMenuOpen && (
+              <div
+                onMouseLeave={() => setUserMenuOpen(false)}
+                className="absolute right-0 top-10 w-44 rounded-md bg-white shadow-lg ring-1 ring-black/5"
+              >
+                <a
+                  href="/profile"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >
+                  Profile
+                </a>
+                <a
+                  href="/orders"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >
+                  My Orders
+                </a>
+                <button
+                  onClick={handleLogout}
+                  className="block w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-gray-100"
+                >
+                  Logout
+                </button>
               </div>
-            ))}
-          </dl>
+            )}
+
+            {/* Cart */}
+            <ShoppingCartIcon className="h-6 w-6 cursor-pointer text-gray-700 dark:text-white" />
+
+            {/* Mobile Menu */}
+            <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
+              {menuOpen ? (
+                <XMarkIcon className="h-6 w-6 dark:text-white" />
+              ) : (
+                <Bars3Icon className="h-6 w-6 dark:text-white" />
+              )}
+            </button>
+          </div>
         </div>
-      </div>
+
+        {/* Mobile Menu */}
+        {menuOpen && (
+          <div className="md:hidden bg-white dark:bg-gray-900 px-4 pb-4">
+            <ul className="flex flex-col gap-3 text-gray-700 dark:text-gray-200">
+              <li>Home</li>
+              <li>Shop</li>
+              <li>Categories</li>
+              <li>Contact</li>
+            </ul>
+            <div className="mt-3 flex items-center border rounded-lg px-2 dark:border-gray-700">
+              <MagnifyingGlassIcon className="h-5 w-5 text-gray-500" />
+              <input
+                type="text"
+                placeholder="Enter Product Name..."
+                onChange={(e) => setKeyword(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    searchHandler()
+                  }
+                }}
+                className="px-2 py-1 text-sm bg-transparent outline-none dark:text-white"
+              />
+            </div>
+          </div>
+        )}
+      </header>
     </div>
   )
 }

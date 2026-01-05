@@ -8,6 +8,7 @@ import Home from './component/home'
 import Header from './component/header';
 import Footer from './component/footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProductDetails from './component/products/ProductDetails';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -39,6 +40,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/search" element={<Home />} />
+            <Route path='product/:id' element={<ProductDetails />} />
           </Routes>
         </div>
       </Router>

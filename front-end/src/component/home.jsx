@@ -7,8 +7,6 @@ export default function Home() {
     const [Products, setProducts] = useState([]);
     const [searchParams, setSearchParams] = useSearchParams();
     useEffect(() => {
-        console.log(import.meta.env.VITE_API_URL)
-        // fetchHomeProducts();
         fetch(import.meta.env.VITE_API_URL + '/products?' + searchParams)
             .then(res => res.json())
             .then(data => {

@@ -1,145 +1,282 @@
 [
   {
-    "name": "Men Wallet",
+    "name": "Men Leather Wallet",
     "price": 1100,
     "category": "fashion",
+    "rating": 4.6,
+    "stock": 12,
+    "seller": "Urban Style",
     "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
-    "description": "Leather wallet"
+    "images": [
+      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+    ],
+    "description": "Premium quality leather wallet with multiple compartments."
   },
   {
     "name": "Men Casual Shirt",
-    "price": 1499,
+    "price": 899,
     "category": "fashion",
-    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
-    "description": "Cotton casual shirt"
+    "rating": 4.3,
+    "stock": 20,
+    "seller": "Roadster",
+    "image": "https://images.unsplash.com/photo-1521335629791-ce4aec67ddaf",
+    "images": [
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67ddaf",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f"
+    ],
+    "description": "Comfortable cotton casual shirt."
   },
   {
     "name": "Women Handbag",
-    "price": 2499,
+    "price": 1599,
     "category": "fashion",
-    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
-    "description": "Stylish women handbag"
+    "rating": 4.7,
+    "stock": 8,
+    "seller": "Zara",
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693",
+    "images": [
+      "https://images.unsplash.com/photo-1585386959984-a41552231693",
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3"
+    ],
+    "description": "Stylish handbag for daily use."
   },
   {
-    "name": "Men Sneakers",
-    "price": 3299,
+    "name": "Running Shoes",
+    "price": 2999,
     "category": "fashion",
-    "image": "https://images.unsplash.com/photo-1528701800489-20be3c0ea44a",
-    "description": "Comfortable sneakers"
+    "rating": 4.5,
+    "stock": 15,
+    "seller": "Nike",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "images": [
+      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+    ],
+    "description": "Lightweight running shoes."
   },
   {
-    "name": "Women Sunglasses",
-    "price": 999,
+    "name": "Men Belt",
+    "price": 699,
     "category": "fashion",
-    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
-    "description": "UV protected sunglasses"
+    "rating": 4.2,
+    "stock": 30,
+    "seller": "Levis",
+    "image": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6",
+    "images": [
+      "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6",
+      "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f"
+    ],
+    "description": "Genuine leather belt."
   },
-
   {
     "name": "Wireless Headphones",
-    "price": 2999,
+    "price": 2499,
     "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1518444028785-8f8d5c9a1f89",
-    "description": "Noise cancelling headphones"
+    "rating": 4.6,
+    "stock": 18,
+    "seller": "Boat",
+    "image": "https://images.unsplash.com/photo-1518445695008-5f3b3c6c04db",
+    "images": [
+      "https://images.unsplash.com/photo-1518445695008-5f3b3c6c04db",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+    ],
+    "description": "Noise cancelling wireless headphones."
   },
   {
     "name": "Smart Watch",
-    "price": 4999,
+    "price": 3999,
     "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
-    "description": "Fitness smart watch"
+    "rating": 4.4,
+    "stock": 10,
+    "seller": "Noise",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d"
+    ],
+    "description": "Fitness tracking smart watch."
   },
   {
     "name": "Bluetooth Speaker",
-    "price": 2199,
+    "price": 1999,
     "category": "electronics",
+    "rating": 4.5,
+    "stock": 25,
+    "seller": "JBL",
     "image": "https://images.unsplash.com/photo-1585386959984-a41552231693",
-    "description": "Portable speaker"
+    "images": [
+      "https://images.unsplash.com/photo-1585386959984-a41552231693",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+    ],
+    "description": "Portable Bluetooth speaker."
   },
   {
-    "name": "Gaming Mouse",
-    "price": 1599,
+    "name": "Laptop Backpack",
+    "price": 1799,
     "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1584270354949-c26b0d6a0f2c",
-    "description": "RGB gaming mouse"
+    "rating": 4.3,
+    "stock": 14,
+    "seller": "HP",
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693",
+    "images": [
+      "https://images.unsplash.com/photo-1585386959984-a41552231693",
+      "https://images.unsplash.com/photo-1518445695008-5f3b3c6c04db"
+    ],
+    "description": "Water resistant laptop backpack."
   },
   {
-    "name": "Mechanical Keyboard",
-    "price": 3899,
+    "name": "Power Bank",
+    "price": 1299,
     "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
-    "description": "Backlit keyboard"
+    "rating": 4.4,
+    "stock": 40,
+    "seller": "MI",
+    "image": "https://images.unsplash.com/photo-1593642634367-d91a135587b5",
+    "images": [
+      "https://images.unsplash.com/photo-1593642634367-d91a135587b5",
+      "https://images.unsplash.com/photo-1585386959984-a41552231693"
+    ],
+    "description": "10000mAh fast charging power bank."
   },
-
   {
     "name": "Dog Dry Food",
-    "price": 899,
+    "price": 2200,
     "category": "petfood",
-    "image": "https://images.unsplash.com/photo-1583511655826-05700d52f4d9",
-    "description": "Healthy dog food"
+    "rating": 4.7,
+    "stock": 22,
+    "seller": "Pedigree",
+    "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e",
+    "images": [
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e",
+      "https://images.unsplash.com/photo-1598133894008-61f7fdb8ccfd"
+    ],
+    "description": "Nutritious dry food for dogs."
   },
   {
-    "name": "Cat Food Pack",
-    "price": 799,
+    "name": "Cat Food",
+    "price": 1800,
     "category": "petfood",
-    "image": "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a",
-    "description": "Nutritious cat food"
+    "rating": 4.6,
+    "stock": 16,
+    "seller": "Whiskas",
+    "image": "https://images.unsplash.com/photo-1598133894008-61f7fdb8ccfd",
+    "images": [
+      "https://images.unsplash.com/photo-1598133894008-61f7fdb8ccfd",
+      "https://images.unsplash.com/photo-1619983081563-430f63602796"
+    ],
+    "description": "Healthy cat food."
   },
   {
     "name": "Dog Biscuits",
-    "price": 349,
+    "price": 450,
     "category": "petfood",
-    "image": "https://images.unsplash.com/photo-1601758174664-c6c4c62b21b0",
-    "description": "Crunchy dog treats"
+    "rating": 4.4,
+    "stock": 35,
+    "seller": "Drools",
+    "image": "https://images.unsplash.com/photo-1619983081563-430f63602796",
+    "images": [
+      "https://images.unsplash.com/photo-1619983081563-430f63602796",
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e"
+    ],
+    "description": "Tasty dog biscuits."
   },
   {
-    "name": "Pet Nutrition Mix",
-    "price": 599,
+    "name": "Pet Food Bowl",
+    "price": 399,
     "category": "petfood",
-    "image": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb",
-    "description": "Vitamin supplement"
+    "rating": 4.2,
+    "stock": 50,
+    "seller": "PetZone",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
+    "images": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
+      "https://images.unsplash.com/photo-1598133894008-61f7fdb8ccfd"
+    ],
+    "description": "Stainless steel pet bowl."
   },
   {
-    "name": "Premium Dog Food",
+    "name": "Dog Supplements",
+    "price": 899,
+    "category": "petfood",
+    "rating": 4.5,
+    "stock": 12,
+    "seller": "Himalaya",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
+    "images": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
+      "https://images.unsplash.com/photo-1619983081563-430f63602796"
+    ],
+    "description": "Health supplements for dogs."
+  },
+  {
+    "name": "Sunglasses",
     "price": 1299,
-    "category": "petfood",
-    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b",
-    "description": "High protein food"
-  },
-
-  {
-    "name": "Leather Belt",
-    "price": 799,
     "category": "accessories",
-    "image": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6",
-    "description": "Genuine leather belt"
+    "rating": 4.3,
+    "stock": 20,
+    "seller": "RayBan",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67ddaf"
+    ],
+    "description": "UV protected sunglasses."
   },
   {
     "name": "Men Watch",
-    "price": 2599,
+    "price": 3499,
     "category": "accessories",
-    "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
-    "description": "Classic analog watch"
+    "rating": 4.6,
+    "stock": 10,
+    "seller": "Fossil",
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3",
+    "images": [
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f"
+    ],
+    "description": "Stylish analog watch."
   },
   {
-    "name": "Women Scarf",
-    "price": 699,
-    "category": "accessories",
-    "image": "https://images.unsplash.com/photo-1520975916090-3105956dac38",
-    "description": "Soft cotton scarf"
-  },
-  {
-    "name": "Travel Backpack",
-    "price": 1899,
-    "category": "accessories",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "description": "Spacious backpack"
-  },
-  {
-    "name": "Phone Case",
+    "name": "Cap",
     "price": 499,
     "category": "accessories",
-    "image": "https://images.unsplash.com/photo-1580910051074-7d65f93e71ad",
-    "description": "Shockproof phone case"
+    "rating": 4.1,
+    "stock": 45,
+    "seller": "Adidas",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+    "images": [
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d"
+    ],
+    "description": "Sports cap."
+  },
+  {
+    "name": "Leather Keychain",
+    "price": 299,
+    "category": "accessories",
+    "rating": 4.0,
+    "stock": 60,
+    "seller": "Urban Forest",
+    "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+    "images": [
+      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+    ],
+    "description": "Premium leather keychain."
+  },
+  {
+    "name": "Bracelet",
+    "price": 799,
+    "category": "accessories",
+    "rating": 4.4,
+    "stock": 18,
+    "seller": "H&M",
+    "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+    "images": [
+      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+    ],
+    "description": "Trendy bracelet."
   }
 ]

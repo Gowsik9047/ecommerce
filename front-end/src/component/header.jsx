@@ -11,6 +11,7 @@ import {
   MagnifyingGlassIcon
 } from "@heroicons/react/24/outline"
 import { useNavigate } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 const navigation = [
@@ -43,7 +44,6 @@ export default function NavBar() {
   }
 
   return (
-    <div className={dark ? "dark" : ""}>
       <header className="fixed top-0 w-full z-50 bg-white dark:bg-gray-900 shadow">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           <Link to={"/"}>
@@ -71,6 +71,7 @@ export default function NavBar() {
                   searchHandler()
                 }
               }}
+              onBlur={searchHandler}
               className="px-2 py-1 text-sm bg-transparent outline-none dark:text-white"
             />
           </div>
@@ -153,6 +154,5 @@ export default function NavBar() {
           </div>
         )}
       </header>
-    </div>
   )
 }
